@@ -30,5 +30,15 @@ VALUES ('Maria', '1999-12-30', 'F', '55.50', '1.65', 'Portugal');
 INSERT INTO pessoas (id, nome, nascimento, sexo, peso, altura, nacionalidade)
 VALUES (DEFAULT, 'Creuza', '1920-12-30', 'F', '50.2', '1.60', DEFAULT);
 
+-- Inserir registro de modo simplificado, sem mencionar nomes de colunas
+INSERT INTO pessoas VALUES
+(DEFAULT, 'Adalgisa', '1930-12-05', 'F', '61.8', '1.75', 'Irlanda');
+
+-- Inserir vários registros usando mesma linha de comando
+insert into pessoas values
+(DEFAULT, 'Ana', '1975-04-26', 'F', '45,2', '1.45', 'EUA'),
+(DEFAULT, 'Pedro', '2000-02-11', 'M', '52.3', '1.45', 'Brasil'),
+(DEFAULT, 'Maria', '1999-05-30', 'F', '75.9', '1.70', 'Portugal');
+
 -- Selecionar e exibir todos os registros da tabela
 SELECT * FROM pessoas;
