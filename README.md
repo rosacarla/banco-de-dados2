@@ -1,1 +1,1 @@
-# banco-de-dados2
+# Disciplina Banco de Dados 2
